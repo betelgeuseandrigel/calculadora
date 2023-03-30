@@ -1,0 +1,9 @@
+@media screen and (max-width: 350px) {
+    .contenedor{
+        .calculadora{
+            display: grid;
+            grid-template-columns: repeat(4, 75px);
+            grid-template-rows: 160px repeat(5, 50px);
+        }
+    }
+}
