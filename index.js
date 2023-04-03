@@ -16,7 +16,7 @@ botonBorrar.addEventListener("click", () => display.borrar());
 botonBorrarTodo.addEventListener("click", () => display.borrarTodo());
 
 botonesOperadores.forEach(boton => {
-    boton.addEventListener("click", () => display.computar(boton.id));
+    boton.addEventListener("click", () => display.computar(boton.value));
 })
 
 
